@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class MahasiswaViewController {
   
-    @RequestMapping("/index")
+    @RequestMapping("/mahasiswa")
     public String index(){
-    return "index";
+    return "mahasiswa";
     }   
 }
